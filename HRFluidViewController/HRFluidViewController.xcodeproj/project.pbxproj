@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8C1057177BB272002DDF6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8C1056177BB271002DDF6F /* Foundation.framework */; };
+		AA8C1059177BB272002DDF6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8C1058177BB272002DDF6F /* CoreGraphics.framework */; };
+		AA8C105B177BB272002DDF6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8C105A177BB272002DDF6F /* UIKit.framework */; };
+		AA8C1061177BB272002DDF6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA8C105F177BB272002DDF6F /* InfoPlist.strings */; };
+		AA8C1063177BB272002DDF6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8C1062177BB272002DDF6F /* main.m */; };
+		AA8C1067177BB272002DDF6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8C1066177BB272002DDF6F /* AppDelegate.m */; };
+		AA8C106A177BB272002DDF6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8C1068177BB272002DDF6F /* Main.storyboard */; };
+		AA8C106D177BB272002DDF6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8C106C177BB272002DDF6F /* ViewController.m */; };
+		AA8C106F177BB272002DDF6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8C106E177BB272002DDF6F /* Images.xcassets */; };
+		AA8C1076177BB272002DDF6F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8C1075177BB272002DDF6F /* XCTest.framework */; };
+		AA8C1077177BB272002DDF6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8C1056177BB271002DDF6F /* Foundation.framework */; };
+		AA8C1078177BB272002DDF6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8C105A177BB272002DDF6F /* UIKit.framework */; };
+		AA8C1080177BB272002DDF6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA8C107E177BB272002DDF6F /* InfoPlist.strings */; };
+		AA8C1082177BB272002DDF6F /* HRFluidViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8C1081177BB272002DDF6F /* HRFluidViewControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA8C1079177BB272002DDF6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8C104B177BB271002DDF6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8C1052177BB271002DDF6F;
+			remoteInfo = HRFluidViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA8C1053177BB271002DDF6F /* HRFluidViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRFluidViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8C1056177BB271002DDF6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA8C1058177BB272002DDF6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA8C105A177BB272002DDF6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA8C105E177BB272002DDF6F /* HRFluidViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HRFluidViewController-Info.plist"; sourceTree = "<group>"; };
+		AA8C1060177BB272002DDF6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA8C1062177BB272002DDF6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA8C1064177BB272002DDF6F /* HRFluidViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HRFluidViewController-Prefix.pch"; sourceTree = "<group>"; };
+		AA8C1065177BB272002DDF6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA8C1066177BB272002DDF6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA8C1069177BB272002DDF6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8C106B177BB272002DDF6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA8C106C177BB272002DDF6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA8C106E177BB272002DDF6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA8C1074177BB272002DDF6F /* HRFluidViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRFluidViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8C1075177BB272002DDF6F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AA8C107D177BB272002DDF6F /* HRFluidViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HRFluidViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		AA8C107F177BB272002DDF6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA8C1081177BB272002DDF6F /* HRFluidViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRFluidViewControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8C1050177BB271002DDF6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8C1059177BB272002DDF6F /* CoreGraphics.framework in Frameworks */,
+				AA8C105B177BB272002DDF6F /* UIKit.framework in Frameworks */,
+				AA8C1057177BB272002DDF6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8C1071177BB272002DDF6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8C1076177BB272002DDF6F /* XCTest.framework in Frameworks */,
+				AA8C1078177BB272002DDF6F /* UIKit.framework in Frameworks */,
+				AA8C1077177BB272002DDF6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8C104A177BB271002DDF6F = {
+			isa = PBXGroup;
+			children = (
+				AA8C105C177BB272002DDF6F /* HRFluidViewController */,
+				AA8C107B177BB272002DDF6F /* HRFluidViewControllerTests */,
+				AA8C1055177BB271002DDF6F /* Frameworks */,
+				AA8C1054177BB271002DDF6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8C1054177BB271002DDF6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8C1053177BB271002DDF6F /* HRFluidViewController.app */,
+				AA8C1074177BB272002DDF6F /* HRFluidViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8C1055177BB271002DDF6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA8C1056177BB271002DDF6F /* Foundation.framework */,
+				AA8C1058177BB272002DDF6F /* CoreGraphics.framework */,
+				AA8C105A177BB272002DDF6F /* UIKit.framework */,
+				AA8C1075177BB272002DDF6F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA8C105C177BB272002DDF6F /* HRFluidViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA8C1065177BB272002DDF6F /* AppDelegate.h */,
+				AA8C1066177BB272002DDF6F /* AppDelegate.m */,
+				AA8C1068177BB272002DDF6F /* Main.storyboard */,
+				AA8C106B177BB272002DDF6F /* ViewController.h */,
+				AA8C106C177BB272002DDF6F /* ViewController.m */,
+				AA8C106E177BB272002DDF6F /* Images.xcassets */,
+				AA8C105D177BB272002DDF6F /* Supporting Files */,
+			);
+			path = HRFluidViewController;
+			sourceTree = "<group>";
+		};
+		AA8C105D177BB272002DDF6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA8C105E177BB272002DDF6F /* HRFluidViewController-Info.plist */,
+				AA8C105F177BB272002DDF6F /* InfoPlist.strings */,
+				AA8C1062177BB272002DDF6F /* main.m */,
+				AA8C1064177BB272002DDF6F /* HRFluidViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA8C107B177BB272002DDF6F /* HRFluidViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA8C1081177BB272002DDF6F /* HRFluidViewControllerTests.m */,
+				AA8C107C177BB272002DDF6F /* Supporting Files */,
+			);
+			path = HRFluidViewControllerTests;
+			sourceTree = "<group>";
+		};
+		AA8C107C177BB272002DDF6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA8C107D177BB272002DDF6F /* HRFluidViewControllerTests-Info.plist */,
+				AA8C107E177BB272002DDF6F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8C1052177BB271002DDF6F /* HRFluidViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8C1085177BB272002DDF6F /* Build configuration list for PBXNativeTarget "HRFluidViewController" */;
+			buildPhases = (
+				AA8C104F177BB271002DDF6F /* Sources */,
+				AA8C1050177BB271002DDF6F /* Frameworks */,
+				AA8C1051177BB271002DDF6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRFluidViewController;
+			productName = HRFluidViewController;
+			productReference = AA8C1053177BB271002DDF6F /* HRFluidViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA8C1073177BB272002DDF6F /* HRFluidViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8C1088177BB272002DDF6F /* Build configuration list for PBXNativeTarget "HRFluidViewControllerTests" */;
+			buildPhases = (
+				AA8C1070177BB272002DDF6F /* Sources */,
+				AA8C1071177BB272002DDF6F /* Frameworks */,
+				AA8C1072177BB272002DDF6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8C107A177BB272002DDF6F /* PBXTargetDependency */,
+			);
+			name = HRFluidViewControllerTests;
+			productName = HRFluidViewControllerTests;
+			productReference = AA8C1074177BB272002DDF6F /* HRFluidViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8C104B177BB271002DDF6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = rathahin;
+				TargetAttributes = {
+					AA8C1073177BB272002DDF6F = {
+						TestTargetID = AA8C1052177BB271002DDF6F;
+					};
+				};
+			};
+			buildConfigurationList = AA8C104E177BB271002DDF6F /* Build configuration list for PBXProject "HRFluidViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8C104A177BB271002DDF6F;
+			productRefGroup = AA8C1054177BB271002DDF6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8C1052177BB271002DDF6F /* HRFluidViewController */,
+				AA8C1073177BB272002DDF6F /* HRFluidViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8C1051177BB271002DDF6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8C106F177BB272002DDF6F /* Images.xcassets in Resources */,
+				AA8C1061177BB272002DDF6F /* InfoPlist.strings in Resources */,
+				AA8C106A177BB272002DDF6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8C1072177BB272002DDF6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8C1080177BB272002DDF6F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8C104F177BB271002DDF6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8C106D177BB272002DDF6F /* ViewController.m in Sources */,
+				AA8C1067177BB272002DDF6F /* AppDelegate.m in Sources */,
+				AA8C1063177BB272002DDF6F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8C1070177BB272002DDF6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8C1082177BB272002DDF6F /* HRFluidViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA8C107A177BB272002DDF6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8C1052177BB271002DDF6F /* HRFluidViewController */;
+			targetProxy = AA8C1079177BB272002DDF6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA8C105F177BB272002DDF6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8C1060177BB272002DDF6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA8C1068177BB272002DDF6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8C1069177BB272002DDF6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8C107E177BB272002DDF6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8C107F177BB272002DDF6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA8C1083177BB272002DDF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA8C1084177BB272002DDF6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8C1086177BB272002DDF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRFluidViewController/HRFluidViewController-Prefix.pch";
+				INFOPLIST_FILE = "HRFluidViewController/HRFluidViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA8C1087177BB272002DDF6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRFluidViewController/HRFluidViewController-Prefix.pch";
+				INFOPLIST_FILE = "HRFluidViewController/HRFluidViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA8C1089177BB272002DDF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HRFluidViewController.app/HRFluidViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRFluidViewController/HRFluidViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HRFluidViewControllerTests/HRFluidViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AA8C108A177BB272002DDF6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HRFluidViewController.app/HRFluidViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRFluidViewController/HRFluidViewController-Prefix.pch";
+				INFOPLIST_FILE = "HRFluidViewControllerTests/HRFluidViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8C104E177BB271002DDF6F /* Build configuration list for PBXProject "HRFluidViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8C1083177BB272002DDF6F /* Debug */,
+				AA8C1084177BB272002DDF6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8C1085177BB272002DDF6F /* Build configuration list for PBXNativeTarget "HRFluidViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8C1086177BB272002DDF6F /* Debug */,
+				AA8C1087177BB272002DDF6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA8C1088177BB272002DDF6F /* Build configuration list for PBXNativeTarget "HRFluidViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8C1089177BB272002DDF6F /* Debug */,
+				AA8C108A177BB272002DDF6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8C104B177BB271002DDF6F /* Project object */;
+}
